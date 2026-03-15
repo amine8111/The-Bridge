@@ -3,87 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE BRIDGE | Global Trade & Business Hub</title>
+    <title>THE BRIDGE | Algiers Business Hub & Global Trade</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Montserrat', sans-serif; }
+        body { font-family: 'Inter', sans-serif; }
         h1, h2, .logo-text { font-family: 'Playfair Display', serif; }
-        .hero-bg { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1579546628266-4171694f2917?q=80&w=2070&auto=format&fit=crop'); background-size: cover; }
-        .division-card:hover { transform: translateY(-5px); transition: 0.3s; }
+        .hero-bg { background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center; }
+        .nav-link { transition: all 0.3s ease; }
+        .nav-link:hover { color: #f59e0b; }
     </style>
 </head>
-<body class="bg-white text-slate-900">
+<body class="bg-slate-50 text-slate-900">
 
-    <nav class="flex justify-between items-center px-10 py-6 border-b border-slate-100 sticky top-0 bg-white z-50">
-        <div class="flex items-center space-x-2">
-            <div class="w-10 h-10 bg-slate-900 rounded-full flex items-center justify-center">
-                <span class="text-amber-500 font-bold text-xl">B</span>
+    <nav class="flex justify-between items-center px-6 md:px-12 py-5 border-b bg-white sticky top-0 z-50 shadow-sm">
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 bg-slate-900 rounded-lg flex items-center justify-center shadow-lg">
+                <span class="text-amber-500 font-bold text-xl font-serif">B</span>
             </div>
-            <span class="logo-text text-2xl font-bold tracking-tight">THE BRIDGE</span>
+            <span class="logo-text text-2xl font-bold tracking-tight text-slate-900">THE BRIDGE</span>
         </div>
-        <div class="hidden md:flex space-x-8 font-medium text-sm text-slate-600">
-            <a href="#inbound" class="hover:text-amber-600">Global to Algeria</a>
-            <a href="#outbound" class="hover:text-amber-600">Algeria to Global</a>
-            <a href="#export" class="hover:text-amber-600">Export House</a>
-            <a href="#contact" class="bg-slate-900 text-white px-5 py-2 rounded-full">Contact HQ</a>
+        <div class="hidden lg:flex space-x-8 font-semibold text-xs uppercase tracking-widest text-slate-500">
+            <a href="#about" class="nav-link">The Founder</a>
+            <a href="#inbound" class="nav-link">Business Hub</a>
+            <a href="#outbound" class="nav-link">Export House</a>
+            <a href="#contact" class="bg-amber-600 text-white px-5 py-2 rounded text-xs">Contact HQ</a>
         </div>
     </nav>
 
-    <header class="hero-bg h-[70vh] flex flex-col justify-center items-center text-center text-white px-6">
-        <h1 class="text-5xl md:text-7xl mb-4">Connecting Algiers to the World.</h1>
-        <p class="text-xl max-w-3xl text-slate-300 mb-8">Dual-Division Expertise: Bringing Global Capital In, and Taking Algerian Excellence Out.</p>
-        <div class="flex space-x-4">
-            <a href="#inbound" class="bg-amber-600 px-8 py-3 rounded-md font-bold">Invest in Algeria</a>
-            <a href="#outbound" class="bg-white text-slate-900 px-8 py-3 rounded-md font-bold">Export from Algeria</a>
+    <header class="hero-bg min-h-[85vh] flex flex-col justify-center items-center text-center text-white px-6">
+        <span class="text-amber-500 font-bold tracking-[0.3em] uppercase mb-4 text-sm">Algiers | Dubai | Montreal</span>
+        <h1 class="text-5xl md:text-7xl mb-6 leading-tight">Your Gateway to the <br><span class="text-amber-500">2026 Algerian Economy.</span></h1>
+        <p class="text-lg md:text-xl max-w-3xl text-slate-300 mb-10 font-light">The first elite hub connecting UAE vision, Canadian transparency, and Algerian local mastery.</p>
+        <div class="flex flex-col md:flex-row gap-4">
+            <a href="#inbound" class="bg-amber-600 px-10 py-4 rounded font-bold shadow-xl hover:bg-amber-500 transition">Enter Algerian Market</a>
+            <a href="#outbound" class="bg-white text-slate-900 px-10 py-4 rounded font-bold shadow-xl hover:bg-slate-200 transition">Scale Globally</a>
         </div>
     </header>
 
-    <section id="inbound" class="py-20 px-10 max-w-7xl mx-auto">
-        <div class="flex flex-col md:flex-row items-center gap-12">
-            <div class="md:w-1/2">
-                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Inbound Investment" class="rounded-2xl shadow-2xl">
+    <section id="about" class="py-24 px-6 md:px-12 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h3 class="text-amber-600 font-bold uppercase tracking-widest text-sm mb-4">The Bridge Identity</h3>
+                <h2 class="text-4xl md:text-5xl mb-6">Built on 15 Years of <br>Dubai Excellence.</h2>
+                <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                    Founded by a Canadian-Algerian professional with a deep legacy in the UAE's corporate landscape, THE BRIDGE provides a unique trifecta of trust, speed, and local know-how.
+                </p>
+                <div class="grid grid-cols-2 gap-6 border-t pt-8">
+                    <div>
+                        <p class="font-bold text-2xl text-slate-900">15+ Yrs</p>
+                        <p class="text-sm text-slate-500 uppercase tracking-tighter">UAE Network</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-2xl text-slate-900">Canadian</p>
+                        <p class="text-sm text-slate-500 uppercase tracking-tighter">Trust Standards</p>
+                    </div>
+                </div>
             </div>
-            <div class="md:w-1/2">
-                <h2 class="text-4xl mb-6">Division I: Inbound Investment</h2>
-                <p class="text-slate-600 mb-6">We serve as the landing pad for international corporations and UAE family offices entering the Algerian market.</p>
-                <ul class="space-y-4">
-                    <li class="flex items-start"><span class="text-amber-600 mr-2">✓</span> <strong>100% Ownership Setup:</strong> Full administrative path for Foreign Direct Investment (FDI).</li>
-                    <li class="flex items-start"><span class="text-amber-600 mr-2">✓</span> <strong>Proxy Management:</strong> Local representation and ministerial liaison for absentee owners.</li>
-                    <li class="flex items-start"><span class="text-amber-600 mr-2">✓</span> <strong>Market Intelligence:</strong> Due diligence and feasibility studies for Agricultural and Industrial projects.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section id="outbound" class="py-20 bg-slate-50 px-10">
-        <div class="max-w-7xl mx-auto flex flex-col md:flex-row-reverse items-center gap-12">
-            <div class="md:w-1/2">
-                <img src="https://images.unsplash.com/photo-1521791136064-7986c295944b?auto=format&fit=crop&w=800&q=80" alt="Outbound Trade" class="rounded-2xl shadow-2xl">
-            </div>
-            <div class="md:w-1/2">
-                <h2 class="text-4xl mb-6">Division II: Global Expansion</h2>
-                <p class="text-slate-600 mb-6">We help Algerian entrepreneurs and industrialists scale beyond borders to the UAE, Canada, and Europe.</p>
-                <ul class="space-y-4">
-                    <li class="flex items-start"><span class="text-amber-600 mr-2">✓</span> <strong>The Export House:</strong> Specialized logistics, international packaging standards, and health certifications.</li>
-                    <li class="flex items-start"><span class="text-amber-600 mr-2">✓</span> <strong>Global Distribution:</strong> Access to UAE and North American retail networks and digital marketplaces.</li>
-                    <li class="flex items-start"><span class="text-amber-600 mr-2">✓</span> <strong>Exhibition Management:</strong> Full representation at Gulfood (Dubai), SIAL, and major Canadian trade fairs.</li>
-                </ul>
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1573161559525-970dc21c279f?auto=format&fit=crop&w=800&q=80" class="rounded-2xl shadow-2xl relative z-10" alt="Executive Meeting">
+                <div class="absolute -bottom-6 -right-6 w-48 h-48 bg-amber-500/10 rounded-2xl -z-0"></div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="py-24 text-center bg-slate-900 text-white">
-        <h2 class="text-4xl mb-6">Ready to Cross the Bridge?</h2>
-        <p class="mb-10 text-slate-400">Whether you are bringing capital in or taking products out, we are your strategic partner.</p>
-        <div class="flex flex-col md:flex-row justify-center gap-4 px-6">
-            <input type="email" placeholder="Your Professional Email" class="px-6 py-4 rounded-md text-slate-900 w-full md:w-80">
-            <button class="bg-amber-600 px-10 py-4 rounded-md font-bold hover:bg-amber-500 transition">Request Consultation</button>
-        </div>
-        <div class="mt-12 text-sm text-slate-500">
-            Algiers | Dubai | Montreal
+    <section id="inbound" class="py-24 bg-slate-900 text-white px-6 md:px-12">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-4xl font-bold mb-4">Division I: The Business Hub</h2>
+                <p class="text-slate-400">Premium services for international capital entering Algeria.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-amber-500 transition">
+                    <div class="text-3xl mb-4">🏛️</div>
+                    <h4 class="text-xl font-bold mb-3">FDI Landing Pad</h4>
+                    <p class="text-slate-400 text-sm">Full facilitation for 100% foreign-owned entities. We handle the AAPI registration, tax IDs, and bank domiciliation.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-amber-500 transition">
+                    <div class="text-3xl mb-4">📈</div>
+                    <h4 class="text-xl font-bold mb-3">IPO War Rooms</h4>
+                    <p class="text-slate-400 text-sm">Dedicated secure suites for high-growth Algerian startups preparing for the historic 2026 stock market debut.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-amber-500 transition">
+                    <div class="text-3xl mb-4">🛡️</div>
+                    <h4 class="text-xl font-bold mb-3">Proxy Management</h4>
+                    <p class="text-slate-400 text-sm">Local representation for UAE family offices, ensuring your projects are monitored by a trusted partner on the ground.</p>
+                </div>
+            </div>
         </div>
     </section>
+
+    <section id="outbound" class="py-24 px-6 md:px-12 max-w-7xl mx-auto">
+        <div class="flex flex-col lg:flex-row gap-16 items-center">
+            <div class="lg:w-1/2">
+                <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80" class="rounded-2xl shadow-xl" alt="Export Logistics">
+            </div>
+            <div class="lg:w-1/2">
+                <h3 class="text-amber-600 font-bold uppercase tracking-widest text-sm mb-4">Division II: The Export House</h3>
+                <h2 class="text-4xl mb-6 font-bold">Taking Algerian Excellence <br>To the Global Stage.</h2>
+                <p class="text-slate-600 mb-8">We don't just export products; we export brands. We bridge the gap between local production and international retail standards.</p>
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <div class="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center text-amber-600 font-bold mr-4 shrink-0">1</div>
+                        <div>
+                            <h5 class="font-bold text-slate-900">QC & Certification</h5>
+                            <p class="text-sm text-slate-500">Meeting UAE Health & Canada Food Safety standards at the source.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center text-amber-600 font-bold mr-4 shrink-0">2</div>
+                        <div>
+                            <h5 class="font-bold text-slate-900">Global Distribution</h5>
+                            <p class="text-sm text-slate-500">Direct channels to marketplaces in Montreal, Dubai, and beyond.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center text-amber-600 font-bold mr-4 shrink-0">3</div>
+                        <div>
+                            <h5 class="font-bold text-slate-900">Trade Finance</h5>
+                            <p class="text-sm text-slate-500">Expert guidance on currency repatriation and Letters of Credit (LCs).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white border-t px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4 italic">Request a Private Briefing</h2>
+            <p class="text-slate-500 mb-10">Whether you are an international investor or a local producer, the Bridge is your partner for the next decade of growth.</p>
+            <form class="grid gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <input type="text" placeholder="Full Name" class="p-4 border rounded focus:ring-2 focus:ring-amber-500 outline-none">
+                    <input type="email" placeholder="Professional Email" class="p-4 border rounded focus:ring-2 focus:ring-amber-500 outline-none">
+                </div>
+                <textarea placeholder="Tell us about your project..." rows="4" class="p-4 border rounded focus:ring-2 focus:ring-amber-500 outline-none"></textarea>
+                <button class="bg-slate-900 text-white p-4 font-bold rounded-lg hover:bg-slate-800 transition">Message The Bridge</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-slate-50 text-center text-slate-400 text-sm border-t">
+        <p>&copy; 2026 THE BRIDGE. All Rights Reserved. Algiers | Dubai | Montreal</p>
+    </footer>
 
 </body>
 </html>
